@@ -6,7 +6,7 @@
  * 技术支持：https://www.imahui.com  微信公众号：WordPress(搜索微信号：WPGeek)
  * 
  */
-var DOMAIN = "demo.imahui.com";// 网站域名
+var DOMAIN = "www.ly.com";// 网站域名
 var SITENAME = "趣旅行"; // 网站名称
 var DESCRIPTION = '分享有趣旅行,讲述奇闻趣事'; // 网站描述
 var SITELOGO = "../../images/icon.png"; // 网站LOGO
