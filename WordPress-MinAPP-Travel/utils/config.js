@@ -13,8 +13,8 @@ var SITELOGO = "../../images/icon.png"; // 网站LOGO
 var REPLAYTEMPPLATEID = 'AoEILP56aMEqW07Zzix5aRAFaADRz_MIEqgDvzYE2k4';//回复评论消息模版id
 var THUMBNAIL = 'https://demo.imahui.com/uploads/default.png'; // 默认缩略图
 var QRCODEPATH = 'https://' + DOMAIN + '/uploads/qrcode/';		// 二维码目录
-var HOST_URI = 'https://' + DOMAIN + '/wp-json/wp/v2/';
-var HOST_WECHAT = 'https://' + DOMAIN + '/wp-json/wechat/v1/';
+var HOST_URI = 'http://' + DOMAIN + '/wp-json/wp/v2/';
+var HOST_WECHAT = 'http://' + DOMAIN + '/wp-json/wechat/v1/';
 var DOWNLOADDOMAIN = [	// 信任下载域名
   { id: 1, domain: 'www.imahui.com' },
   { id: 2, domain: 'demo.imahui.com' }

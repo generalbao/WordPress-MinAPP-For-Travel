@@ -12,6 +12,7 @@ var Api = require('../../utils/api.js');
 var util = require('../../utils/util.js');
 var wxApi = require('../../utils/wxApi.js');
 var wxRequest = require('../../utils/wxRequest.js');
+var Promise = require('../../utils/bluebird.min.js');
 var WxParse = require('../../wxParse/wxParse.js');
 const app = getApp();
 
@@ -140,6 +141,7 @@ Page({
   fetchSwiperPosts: function () {
     var self = this;
     var getPostsRequest = wxRequest.getRequest(Api.getSwiperPosts());
+      console.log(Api.getSwiperPosts());
     getPostsRequest.then(response => {
       if (response.data.status == '200' && response.data.posts.length > 0) {
         self.setData({

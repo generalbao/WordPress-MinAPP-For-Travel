@@ -7,6 +7,7 @@
  * 
  */
 /** 微信请求封装 **/
+var Promise = require('bluebird.min.js')
 function wxPromisify(fn) {
   return function (obj = {}) {
     return new Promise((resolve, reject) => {
