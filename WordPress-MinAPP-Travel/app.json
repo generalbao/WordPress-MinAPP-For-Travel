@@ -14,7 +14,7 @@
     "backgroundTextStyle": "dark",
 	  "backgroundColor":"#33993b",
     "navigationBarBackgroundColor": "#33993b",
-    "navigationBarTitleText": "趣旅行",
+    "navigationBarTitleText": "途玩旅游",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
